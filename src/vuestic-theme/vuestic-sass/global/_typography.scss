@@ -39,13 +39,13 @@ ul.vue-unordered {
       top              : 0.0625rem;
       margin-right     : -0.75em;
       border-radius    : 0.75rem;
-      background-color : $vue-green;
+      background-color : $vue-blue;
     }
 
     li {
       &::before {
         background-color : $white;
-        border           : 2.5px solid $vue-green;
+        border           : 2.5px solid $vue-blue;
       }
     }
   }
@@ -88,7 +88,7 @@ ol.vue-ordered {
         top              : 0.0625rem;
         margin-right     : -0.75em;
         border-radius    : 0.75rem;
-        background-color : $vue-green;
+        background-color : $vue-blue;
       }
 
     }

@@ -57,7 +57,7 @@ export default {
     transition: background-color ease .5s;
     background-color: $lighter-gray;
     &--active {
-      background-color: $vue-green;
+      background-color: $vue-blue;
     }
     width: .125rem;
     height: .125rem;
@@ -66,7 +66,7 @@ export default {
   &__center {
     background-color: $lighter-gray;
     &--active {
-      background-color: $vue-green;
+      background-color: $vue-blue;
     }
     flex: 0 0 1rem;
     width: 1rem;

@@ -120,7 +120,7 @@ export default {
   }
   &__title {
     text-align: center;
-    color: $vue-green;
+    color: $vue-blue;
     font-weight: 700;
     font-size: $font-size-mini;
     text-transform: uppercase;

@@ -88,7 +88,7 @@ $wizard-label-padding: 0 0.6rem;
     transition: background-color 300ms linear;
     &.completed-line {
       &.makeActive {
-        background-color: $vue-green;
+        background-color: $vue-blue;
       }
       display: none;
       width: 50%;
