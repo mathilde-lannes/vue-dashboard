@@ -69,4 +69,4 @@ Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vues
 - [ ] Add tests coverage
 - [ ] Add service for displaying notifications
 - [ ] Remove unused components
-- [ ] Add French support
+- [X] Add French support
