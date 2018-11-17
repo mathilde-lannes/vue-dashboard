@@ -74,6 +74,7 @@ export default {
 
 <style lang="scss" scoped>
   .overview-item {
+    color: $white;
     display: flex;
     align-items: center;
     height: 55px;

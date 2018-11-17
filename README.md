@@ -4,9 +4,8 @@ Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [
 
 
 <p align="center">
-  <a href="https://vuestic.epicmax.co" target="_blank">
-    <img src="https://i.imgur.com/pMuJVVc.png" align="center" width="888px"/>
-  </a>
+    <img src="./public/homepage.png" align="center" width="888px" style="margin-bottom: 10px"/>
+    <img src="./public/form-elements.png" align="center" width="888px"/>
 </p>
 
 ## Prerequisites:

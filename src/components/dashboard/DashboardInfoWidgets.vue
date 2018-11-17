@@ -1,7 +1,7 @@
 <template>
   <div class="row dashboard-info-widgets">
     <div class="col-md-6 col-xl-3">
-      <vuestic-widget class="info-widget">
+      <vuestic-widget class="info-widget brand-info-homepage">
         <div class="info-widget-inner">
           <div class="stats">
             <div class="stats-number">
@@ -14,7 +14,7 @@
       </vuestic-widget>
     </div>
     <div class="col-md-6 col-xl-3">
-      <vuestic-widget class="info-widget">
+      <vuestic-widget class="info-widget brand-info-homepage">
         <div class="info-widget-inner">
           <div class="stats">
             <div class="stats-number">

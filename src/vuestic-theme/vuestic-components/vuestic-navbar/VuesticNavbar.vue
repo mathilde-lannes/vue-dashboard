@@ -48,6 +48,9 @@ export default {
     background-color: $top-nav-bg;
 
     .vuestic-navbar__logo {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      letter-spacing: 3px;
+      font-weight: 700;
       display: flex;
       align-items: center;
       justify-content: center;

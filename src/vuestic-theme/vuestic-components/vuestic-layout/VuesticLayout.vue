@@ -4,10 +4,12 @@
        :class="classObject"
   >
     <slot></slot>
-    <div class="content-wrap" id="content-wrap">
+    <div class="content-wrap" id="content-wrap"
+      :class="{ 'homepage': $route.path == '/admin/dashboard' }">
       <slot name="content"></slot>
     </div>
-    <div class="made-by-footer">
+    <div class="made-by-footer"
+      :class="{ 'footer-homepage': $route.path == '/admin/dashboard' }">
       <slot name="footer"></slot>
     </div>
   </div>
@@ -53,10 +55,19 @@ export default {
       }
     }
 
+    .homepage {
+      background-color: $dark-blue;
+      padding: 0 !important;
+    }
+
+    .footer-homepage {
+      display: none !important;
+    }
+
     .content-wrap {
-      margin-left: $content-wrap-ml;
       transition: margin-left 0.3s ease;
       padding: $layout-padding $layout-padding-right $content-wrap-pb 0;
+      padding-left: $content-wrap-ml;
 
       .pre-loader {
         position: absolute;
