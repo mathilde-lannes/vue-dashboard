@@ -61,3 +61,12 @@ Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vues
 
 ## License
 [MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
+
+## Things to implement
+
+- [ ] Move menu from the sidebar to the navbar
+- [ ] Add API service to easily send HTTP requests
+- [ ] Add vue-test-utils support
+- [ ] Add tests coverage
+- [ ] Add service for displaying notifications
+- [ ] Remove unused components
