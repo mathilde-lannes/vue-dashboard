@@ -74,7 +74,7 @@ $sidebar-width: 225px;
 $sidebar-top: calc(#{$top-nav-height} + #{$layout-padding});
 $sidebar-left: $layout-padding;
 
-$content-wrap-ml: calc(#{$sidebar-left} + #{$sidebar-width} + 35px);
+$content-wrap-ml: 35px;
 $content-wrap-pr: $layout-padding-right;
 $content-wrap-pt: $layout-padding;
 $content-wrap-pb: $layout-padding;

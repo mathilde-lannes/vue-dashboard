@@ -9,10 +9,8 @@
       <div class="header-elem-wrapper menu-icon-container justify-content-lg-start col">
         <slot name="selector"></slot>
       </div>
-      <div class="header-elem-wrapper navbar-text offset-md-1 col-md-7 d-none d-lg-flex">
-        <slot name="center"></slot>
-      </div>
-      <slot></slot>
+      <slot class="col-xs-10"></slot>
+      <slot name="profile"/>
     </div>
   </nav>
 </template>
