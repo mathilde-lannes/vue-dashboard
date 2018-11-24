@@ -1,7 +1,7 @@
 <template>
   <vuestic-navbar>
     <span slot="logo">
-      VUE DASHBOARD
+      <img class="logo" src="../../../assets/icons/vue-logo.png"/>
     </span>
 
     <menu-dropdown
@@ -11,6 +11,7 @@
       :name="page.name"
       :logo="page.logo"
       :link="page.link"
+      class="col-xs-1"
     ></menu-dropdown>
 
     <profile-dropdown slot="profile" class="col-xs-1 nav-item">
@@ -144,3 +145,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .logo {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+  }
+</style>

@@ -1,8 +1,8 @@
 <template>
   <nav class="vuestic-navbar navbar navbar-toggleable-md">
-    <div class="vuestic-navbar__logo navbar-brand-container d-flex align-items-center justify-content-start">
+    <div class="vuestic-navbar__logo">
       <router-link class="navbar-brand" to="/dashboard">
-        <slot name="logo"/>
+        <slot class="logo" name="logo"/>
       </router-link>
     </div>
     <div class="row vuestic-navbar__content">
@@ -57,6 +57,7 @@ export default {
       position: absolute;
       z-index: 3;
       height: 100%;
+      width: 10%;
       left: $navbar-brand-container-left;
       top: 0;
 

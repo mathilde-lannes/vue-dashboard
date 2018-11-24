@@ -2,33 +2,19 @@
   <div class="dashboard">
     <div class="auth-wallpaper col-12">
       <div class="oblique"></div>
-      <router-link class="auth-wallpaper__logo"  :to="{path: '/'}">
+      <div class="auth-wallpaper__logo">
         <div class="title"> VUE DASHBOARD </div>
         <div class="desc"> build powerful dashboards in no time. </div>
-      </router-link>
+      </div>
     </div>
 
   </div>
 </template>
 
 <script>
-import DashboardInfoWidgets from './DashboardInfoWidgets'
-import UsersMembersTab from './users-and-members-tab/UsersMembersTab.vue'
-import SetupProfileTab from './setup-profile-tab/SetupProfileTab.vue'
-import FeaturesTab from './features-tab/FeaturesTab.vue'
-import DataVisualisationTab from './data-visualisation-tab/DataVisualisation.vue'
-import DashboardBottomWidgets from './DashboardBottomWidgets.vue'
 
 export default {
   name: 'dashboard',
-  components: {
-    DataVisualisationTab,
-    DashboardInfoWidgets,
-    UsersMembersTab,
-    SetupProfileTab,
-    FeaturesTab,
-    DashboardBottomWidgets
-  },
 
   methods: {
     launchEpicmaxToast () {
@@ -67,6 +53,7 @@ export default {
           font-size: 64px;
           font-weight: bold;
           letter-spacing: 3px;
+          color: $vue-blue;
         }
         .desc {
           font-size: 18px;
