@@ -65,7 +65,7 @@ export default {
       }
       .sidebar-menu-item-icon {
         font-size: $sidebar-menu-item-icon-size;
-        color: $vue-green;
+        color: $vue-blue;
         margin-right: 14px;
         &.fa-dashboard {
           /* Temp fix */

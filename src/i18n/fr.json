@@ -1,0 +1,218 @@
+{
+  "auth": {
+    "agree": "Accepter",
+    "alreadyJoined": "Déjà un compte ?",
+    "createAccount": "Créer un compte",
+    "createNewAccount": "Créer un compte",
+    "email": "E-mail",
+    "login": "Identifiant",
+    "password": "Mot de passe",
+    "signUp": "S'identifier",
+    "termsOfUse": "Conditions d'utilisation",
+    "welcome": "Bienvenue !"
+  },
+  "buttons": {
+    "advanced": "Icônes, Groupes, Menus déroulants",
+    "button": "BOUTON",
+    "colors": "Couleurs",
+    "disabled": "DESACTIVE",
+    "dropdown": "MENU DEROULANT",
+    "hover": "SURVOLER",
+    "main": "Bouton primaire et secondaire",
+    "micro": "MICRO",
+    "pressed": "APPUYE",
+    "small": "PETIT"
+  },
+  "charts": {
+    "bubbleChart": "Bubble Chart",
+    "donutChart": "Donut Chart",
+    "horizontalBarChart": "Horizontal Bar Chart",
+    "lineChart": "Line Chart",
+    "pieChart": "Pie Chart",
+    "verticalBarChart": "Vertical Bar Chart"
+  },
+  "collapse": {
+    "accordion": "Accordéon",
+    "buttons": "Boutons"
+  },
+  "dashboard": {
+    "elements": "Eléments",
+    "success": "SUCCES",
+    "successMessage": "L'opération s'est déroulée avec succès !",
+    "teamMembers": "Membres de l'équipe",
+    "versions": "Versions"
+  },
+  "notificationsPage": {
+    "alerts": {
+      "title": "Alertes",
+      "success": "SUCCES",
+      "successMessage": "L'opération s'est déroulée avec succès !",
+      "info": "INFO",
+      "infoMessage": "Cette alerte nécessite votre attention.",
+      "warning": "ATTENTION",
+      "warningMessage": "Les choses se présentent mal...",
+      "danger": "DANGER",
+      "dangerMessage": "Nous n'avons pas pû réaliser l'opération."
+    },
+    "popovers": {
+      "title": "Tooltips & Popovers",
+      "popoverTitleLabel": "Titre du Popover",
+      "popoverTextLabel": "Texte du Popover",
+      "popoverIconLabel": "Icône du Popover (fontawesome)",
+      "showPopover": "Voir le Popover",
+      "topTooltip": "tooltip en haut",
+      "rightTooltip": "tooltip à droite",
+      "leftTooltip": "tooltip à gauche",
+      "bottomTooltip": "tooltip en bas"
+    },
+    "Toasts": {
+      "title": "toast",
+      "textLabel": "Texte",
+      "durationLabel": "Durée (millisecondes)",
+      "iconLabel": "Icône (fontawesome)",
+      "fullWidthLabel": "Largeur totale",
+      "launchToast": "Lancer le toast"
+    }
+  },
+  "forms": {
+    "controls": {
+      "female": "Femme",
+      "male": "Homme",
+      "title": "Checkboxes, Radios, Switches",
+      "radioDisabled": "Radio désactivée",
+      "radio": "Radio",
+      "subscribe": "Souscrire à la newsletter"
+    },
+    "inputs": {
+      "emailValidatedSuccess": "Email (validé avec succès)",
+      "emailValidated": "Email (validé)",
+      "inputWithIcon": "Entrée avec icône",
+      "inputWithButton": "Entrée avec bouton",
+      "inputWithClearButton": "Entrée avec réinitialisation",
+      "inputWithRoundButton": "Entrée avec bouton rond",
+      "textInput": "Texte d'entrée",
+      "textInputWithDescription": "Texte d'entrée (avec description)",
+      "textArea": "Zone de texte",
+      "title": "Entrées",
+      "upload": "SOUMETTRE"
+    },
+    "mediumEditor": {
+      "title": "Editeur Medium"
+    },
+    "selects": {
+      "country": "Sélectionner un pays",
+      "countryMulti": "Sélectionner plusieurs pays",
+      "multi": "Multi-sélection",
+      "simple": "Simple sélection",
+      "title": "Sélections"
+    },
+    "wizard": {
+      "completed": "Assistant complété !",
+      "confirmSelection": "Confirmer la sélection",
+      "name": "Nom",
+      "rich": "Assistant riche",
+      "simple": "Assistant simple",
+      "stepOne": "Etape 1. Nom",
+      "stepTwo": "Etape 2. Pays",
+      "stepThree": "Etape 3. Confirmer",
+      "verticalRich": "Assistant riche vertical",
+      "verticalSimple": "Assistant Simple vertical"
+    }
+  },
+  "grid": {
+    "fixed": "Grille fixe",
+    "desktop": "Grille de bureau",
+    "responsive": "Grid responsive",
+    "offsets": "Décalages"
+  },
+  "menu": {
+    "auth": "Authentification",
+    "buttons": "Boutons",
+    "charts": "Graphiques",
+    "collapse": "Rétractation",
+    "colorPickers": "Sélection de couleurs",
+    "dashboard": "Tableau de bord",
+    "extra": "Extra",
+    "formElements": "Eléments de formulaire",
+    "forms": "Formulaires",
+    "formWizards": "Assistants de formulaires",
+    "mediumEditor": "Editeur Medium",
+    "grid": "Grille",
+    "icons": "Icônes",
+    "cards": "Cartes",
+    "login": "S'authentifier",
+    "maps": "Cartes géographiques",
+    "modals": "Modals",
+    "notifications": "Notifications",
+    "progressBars": "Barres de progression",
+    "signUp": "S'enregistrer",
+    "statistics": "Statistiques",
+    "tables": "Tables",
+    "typography": "Typographie",
+    "uiElements": "Eléments d'UI"
+  },
+  "modal": {
+    "cancel": "ANNULER",
+    "close": "FERMER",
+    "confirm": "CONFIRMER",
+    "large": "Large",
+    "largeTitle": "Modal Large",
+    "medium": "Moyen",
+    "mediumTitle": "Modal Moyen",
+    "small": "Petit",
+    "static": "Statique",
+    "smallTitle": "Modal Petit",
+    "staticMessage":
+      "Ceci est un modal statique. ",
+    "staticTitle": "Modal Statique",
+    "title": "Modals"
+  },
+  "fileUpload": {
+    "advancedMediaGallery": "Avancé, Galerie de médias",
+    "advancedUploadList": "Avancé, liste de chargement",
+    "mediaGallery": "Galerie de médias",
+    "uploadList": "Liste de chargement",
+    "single": "Seul",
+    "dragNdropFiles": "Glisser et déposer les fichiers",
+    "uploadedOn": "Chargé le",
+    "fileDeleted": "Ce fichier n'existe plus",
+    "undo": "Défaire",
+    "preview": "Prévisualiser",
+    "delete": "Supprimer",
+    "deleteFile": "Supprimer le fichier",
+    "uploadFile": "Charger le fichier",
+    "uploadMedia": "Charger le média",
+    "addAttachment": "Ajouter une pièce jointe",
+    "modalTitle": "Valider le fichier",
+    "modalText": "Le format du fichier est incorrect !"
+  },
+  "progressBars": {
+    "basic": "Basique",
+    "basicVertical": "Basique er verticale",
+    "circle": "Circulaire",
+    "colorFulTitle": "Barras colorées",
+    "thin": "Fine",
+    "thinVertical": "Fine et verticale",
+    "thick": "Large",
+    "title": "Barres de progression"
+  },
+  "tables": {
+    "basic": "Table basique",
+    "styled": "Couleurs, Icônes, Etiquettes",
+    "advanced": "Recherche et pagination",
+    "headings": {
+      "city": "Ville",
+      "email": "E-mail",
+      "name": "Nom",
+      "score": "Score"
+    },
+    "dataTable": {
+      "noDataAvailable": "Pas de données disponibles"
+    }
+  },
+  "user": {
+    "language": "Changer la langue",
+    "profile": "Mon profil",
+    "logout": "Se déconnecter"
+  }
+}

@@ -27,6 +27,6 @@ export default {
     height: 1.375rem;
     width: 1.375rem;
     color: $white;
-    background-color: $vue-green;
+    background-color: $vue-blue;
   }
 </style>

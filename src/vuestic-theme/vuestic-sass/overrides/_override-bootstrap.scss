@@ -261,7 +261,7 @@ h4, .h4 {
 
 .success-icon {
   display: inline-block;
-  color: $vue-green;
+  color: $vue-blue;
 }
 
 //Tables
@@ -326,7 +326,7 @@ h4, .h4 {
 
 .table-header-active {
   thead tr {
-    color: $vue-green;
+    color: $vue-blue;
   }
 }
 
@@ -344,7 +344,7 @@ h4, .h4 {
 }
 
 th.sortable:hover {
-  color: $vue-green !important;
+  color: $vue-blue !important;
   opacity: .6;
 }
 

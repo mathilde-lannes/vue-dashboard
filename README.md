@@ -1,17 +1,12 @@
-# Vuestic Admin Dashboard
+# Vue Dashboard
 
-Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Developed by [Epicmax](https://epicmax.co). Designed by [Vasili Savitski](https://xxsavitski.myportfolio.com/)
+Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [Bootstrap 4](https://v4-alpha.getbootstrap.com). Forked from [Vuestic](https://vuestic.epicmax.co) by [Epicmax](https://epicmax.co). Designed by [Vasili Savitski](https://xxsavitski.myportfolio.com/)
 
-Subscribe to our [newsletter](https://epicmax.co/newsletter) to get Vuestic updates, our team's stories and Vue.js materials hand-picked by Epicmax.
 
 <p align="center">
-  <a href="https://vuestic.epicmax.co" target="_blank">
-    <img src="https://i.imgur.com/pMuJVVc.png" align="center" width="888px"/>
-  </a>
+    <img src="./public/homepage.png" align="center" width="888px" style="margin-bottom: 10px"/>
+    <img src="./public/form-elements.png" align="center" width="888px"/>
 </p>
-
-## Demo
-Check it out [live](https://vuestic.epicmax.co)!
 
 ## Prerequisites:
 
@@ -37,33 +32,14 @@ You can create vuestic project via installer:
 ``` bash
 # create new project via vuestic-installer command.
 $ vuestic myproject
-
-```
-
-or just by cloning repo:  
-
-```
-
-# clone the repo
-$ git clone https://github.com/epicmaxco/vuestic-admin.git myproject
-
-# go into app's directory and install dependencies:
 $ cd myproject
-$ npm install
-
-# serve with hot reload at localhost:8080.
+$ npm i
 $ npm run serve
-
-# build for production with minification
-$ npm run build
-
-# build for production and view the bundle analyzer report.
-$ npm run build --report
 ```
 
 ## Documentation
 
-Got stuck? Check out our [documentation](https://github.com/epicmaxco/vuestic-admin/wiki) 🤓
+Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vuestic-admin/wiki) 🤓
 
 ## Features
 * Vue.js
@@ -82,20 +58,15 @@ Got stuck? Check out our [documentation](https://github.com/epicmaxco/vuestic-ad
 * i18n
 * and many more!
 
-## Contributing
-Thanks for all your wonderful PRs, issues and ideas!
-
-[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/0)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/0)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/1)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/1)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/2)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/2)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/3)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/3)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/4)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/4)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/5)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/5)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/6)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/6)[![](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/images/7)](https://sourcerer.io/fame/smartapant/epicmaxco/vuestic-admin/links/7)
-
-## How can I support developers?
-- Star our GitHub repo :star:
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/epicmaxco) :feet:
-- Like our page on [Facebook](https://www.facebook.com/epicmaxco) :thumbsup:
-- Subscribe to our [newsletter](https://epicmax.co/newsletter) :postbox:
-
-## Can I hire you guys?
-Yes!  Visit [our homepage](https://epicmax.co/) or simply leave us a message to [hello@epicmax.co](mailto:hello@epicmax.co). We will be happy to work with you!
-
 ## License
 [MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.
+
+## Things to implement
+
+- [X] Move menu from the sidebar to the navbar
+- [ ] Add API service to easily send HTTP requests
+- [ ] Add vue-test-utils support
+- [ ] Add tests coverage
+- [ ] Add service for displaying notifications
+- [ ] Remove unused components
+- [X] Add French support

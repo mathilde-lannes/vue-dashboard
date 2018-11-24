@@ -1,18 +1,16 @@
 <template>
   <nav class="vuestic-navbar navbar navbar-toggleable-md">
-    <div class="vuestic-navbar__logo navbar-brand-container d-flex align-items-center justify-content-start">
+    <div class="vuestic-navbar__logo">
       <router-link class="navbar-brand" to="/dashboard">
-        <slot name="logo"/>
+        <slot class="logo" name="logo"/>
       </router-link>
     </div>
     <div class="row vuestic-navbar__content">
       <div class="header-elem-wrapper menu-icon-container justify-content-lg-start col">
         <slot name="selector"></slot>
       </div>
-      <div class="header-elem-wrapper navbar-text offset-md-1 col-md-7 d-none d-lg-flex">
-        <slot name="center"></slot>
-      </div>
-      <slot></slot>
+      <slot class="col-xs-10"></slot>
+      <slot name="profile"/>
     </div>
   </nav>
 </template>
@@ -50,12 +48,16 @@ export default {
     background-color: $top-nav-bg;
 
     .vuestic-navbar__logo {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      letter-spacing: 3px;
+      font-weight: 700;
       display: flex;
       align-items: center;
       justify-content: center;
       position: absolute;
       z-index: 3;
       height: 100%;
+      width: 10%;
       left: $navbar-brand-container-left;
       top: 0;
 

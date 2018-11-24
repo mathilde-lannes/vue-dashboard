@@ -7,30 +7,31 @@ $darkest-gray: #333333;
 $almost-black: #161616;
 $hover-black: #222222;
 $vue-green: #4ae387;
+$vue-blue: #9FEAF9;
 $vue-light-green: #dbf9e8;
 $light-green: #c8f9c5;
 $lighter-green: #e9fde8;
-$light-blue: #dcf1ff;
+$light-blue: #CAE8EF;
 $light-yellow: #fff1c8;
 $light-pink: #ffcece;
-$vue-darkest-blue: #34495e;
+$vue-darkest-blue: #2F3241;
 $vue-turquoise: #dbf9e7;
 $white: #ffffff;
-$theme-red: #e34a4a;
-$theme-orange: #f7cc36;
+$theme-red: #FF6663;
+$theme-orange: #f9ae9F;
 $theme-blue: #4ab2e3;
 $theme-violet: #db76df;
 $theme-pale: #d9d9d9;
-$brand-primary: $vue-green !default;
+$brand-primary: $vue-blue !default;
 $brand-danger: $theme-red;
 $brand-warning: $theme-orange;
 $brand-info: $theme-blue;
-$brand-success: $vue-green;
+$brand-success: #9FF9AE;
 $light-gray2: #eff4f5;
 $dark-gray: #282828;
 $gray: #adb3b9;
 $violet: #db76df;
-$dark-blue: #0045b6;
+$dark-blue: #2B2E3B;
 $text-gray: #b4b4b4;
 
 $colors-map: (
@@ -52,13 +53,13 @@ $theme-colors: (
   "warning": $brand-warning,
   "danger": $brand-danger,
   "light": $light-gray2,
-  "dark": $almost-black,
+  "dark": $dark-blue,
   "pale": $theme-pale
 );
 
 // Layout //
 $body-bg: $light-gray;
-$top-nav-bg: $darkest-gray;
+$top-nav-bg: $dark-blue;
 $body-color: $vue-darkest-blue !default;
 $layout-padding: 24px;
 $layout-padding-right: 44px;
@@ -66,20 +67,20 @@ $layout-padding-right: 44px;
 $top-nav-height: 72px;
 $nav-padding-left: $layout-padding;
 $nav-padding-right: $layout-padding-right;
-$navbar-brand-container-left: 75px;
+$navbar-brand-container-left: 15px;
 
-$sidebar-bg: $darkest-gray;
+$sidebar-bg: $dark-blue;
 $sidebar-width: 225px;
 $sidebar-top: calc(#{$top-nav-height} + #{$layout-padding});
 $sidebar-left: $layout-padding;
 
-$content-wrap-ml: calc(#{$sidebar-left} + #{$sidebar-width} + 35px);
+$content-wrap-ml: 35px;
 $content-wrap-pr: $layout-padding-right;
 $content-wrap-pt: $layout-padding;
 $content-wrap-pb: $layout-padding;
 $made-by-footer-pb: 27px;
 
-$greeny-box-shadow: 0 4px 9.6px 0.4px rgba($vue-green, .5);
+$greeny-box-shadow: 0 4px 9.6px 0.4px rgba($vue-blue, .5);
 
 $min-z-index: -1000;
 
@@ -151,7 +152,7 @@ $font-size-h4: 1.375rem !default;
 
 $headings-line-height: 1 !default;
 
-$blockquote-border-color: $vue-green;
+$blockquote-border-color: $vue-blue;
 $blockquote-small-color: $gray-light;
 $blockquote-border-width: 0.375rem;
 $blockquote-font-size: 1.5rem;
@@ -228,8 +229,8 @@ $btn-box-pale-shadow: 0px 4px 70px -16px $theme-pale;
 $btn-box-dark-shadow: 0px 4px 70px -16px $almost-black;
 $btn-border-radius: 1.875rem;
 $btn-dark-color: $white;
-$btn-dark-bg: $darkest-gray;
-$btn-dark-border: $darkest-gray;
+$btn-dark-bg: $dark-blue;
+$btn-dark-border: $dark-blue;
 $btn-pale-bg: $theme-pale;
 $btn-pale-color: $white;
 $btn-dd-arrow-size: 1rem;
@@ -239,7 +240,7 @@ $btn-secondary-theme-border: 2px solid $brand-primary;
 //Dropdowns
 $dropdown-link-color: $white;
 $dropdown-box-shadow: $greeny-box-shadow;
-$dropdown-background: $darkest-gray;
+$dropdown-background: $dark-blue;
 $dropdown-link-color: $white;
 $dropdown-link-hover-color: $white;
 $dropdown-link-hover-bg: $almost-black;
@@ -297,7 +298,7 @@ $state-success-bg: #c8fac6;
 $state-danger-bg: #ffcece;
 $state-warning-bg: #fff1c8;
 $state-info-bg: #dcf1ff;
-$table-hover-bg: rgba($vue-green, .5);
+$table-hover-bg: rgba($vue-blue, .5);
 $table-active-bg: $table-hover-bg;
 
 //Badges
@@ -362,7 +363,7 @@ $tooltip-font-size: $font-size-base;
 $tooltip-box-shadow: $greeny-box-shadow;
 $tooltip-max-width: 200px;
 $tooltip-color: $white;
-$tooltip-bg: $darkest-gray;
+$tooltip-bg: $dark-blue;
 $tooltip-border-radius: $font-size-base * 0.5;
 $tooltip-opacity: .9;
 $tooltip-padding-y: .5rem;

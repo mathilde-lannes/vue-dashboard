@@ -176,7 +176,7 @@ export default {
           transition: height .3s linear, opacity .6s linear;
           position: absolute;
           width: 100%;
-          background-color: $vue-green;
+          background-color: $vue-blue;
           opacity: 0;
           &.active {
             opacity: .3;

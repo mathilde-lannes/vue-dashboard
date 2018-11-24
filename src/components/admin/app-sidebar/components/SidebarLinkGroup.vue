@@ -91,7 +91,7 @@ export default {
   }
 
   .expand-icon {
-    color: $vue-green;
+    color: $vue-blue;
   }
 
 </style>

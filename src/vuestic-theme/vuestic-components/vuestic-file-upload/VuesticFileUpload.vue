@@ -114,7 +114,7 @@ export default {
       margin-left: 1.5rem;
     }
     &--primary {
-      color: $vue-green;
+      color: $vue-blue;
       &:hover {
         opacity: 0.6;
       }

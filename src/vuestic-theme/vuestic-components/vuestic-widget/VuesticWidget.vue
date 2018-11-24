@@ -51,6 +51,12 @@ export default {
     }
   }
 
+  &.brand-info-homepage {
+    background-color: $light-gray;
+    color: $black;
+    box-shadow: $widget-info-shadow;
+  }
+
   &.brand-info {
     background-color: $brand-info;
     color: $white;

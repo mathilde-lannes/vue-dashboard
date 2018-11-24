@@ -145,6 +145,7 @@ $card-font-size: 1.375 rem;
     warning: $brand-warning,
     info: $brand-info,
     success: $brand-success,
+    info-homepage: $light-blue
   );
 
   @each $key, $color in $colors {

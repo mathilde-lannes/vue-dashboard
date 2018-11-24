@@ -111,7 +111,7 @@ export default {
       left: 0;
       flex-direction: column;
       padding: 0.5rem;
-      background: rgba($vue-green, 0.8);
+      background: rgba($vue-blue, 0.8);
       z-index: 1;
     }
     &-image {

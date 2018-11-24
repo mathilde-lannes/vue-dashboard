@@ -45,6 +45,6 @@ export default {
 
 <style lang="scss">
 .vuestic-dropdown {
-  background: $darkest-gray;
+  background: $dark-blue;
 }
 </style>
