@@ -12,7 +12,7 @@ Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [
 
 - [Node.js](https://nodejs.org/en/) (at least 4.x, 8.x recommended)
 - npm version 3+ and [Git](https://git-scm.com/).
-- [vuestic-installer](https://github.com/epicmaxco/vuestic-installer) `npm install vuestic-installer -g`.
+- [kopi](https://github.com/mathilde-lannes/kopi) `npm install kopi-installer -g`.
 
 ## Browser Support
 * Latest Chrome, Firefox, Safari, Edge, IE11+
@@ -27,12 +27,18 @@ $ npm install -g @vue/cli
 $ yarn global add @vue/cli
 ```
 
-You can create vuestic project via installer:
+You can create a vue-dashboard project via the `kopi` installer:
 
 ``` bash
-# create new project via vuestic-installer command.
-$ vuestic myproject
+# create new project via kopi command.
+$ kopi myproject
 $ cd myproject
+$ npm run serve
+```
+
+Or just clone the project and run :
+
+```bash
 $ npm i
 $ npm run serve
 ```
