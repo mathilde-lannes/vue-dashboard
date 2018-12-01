@@ -47,13 +47,28 @@ $ npm run serve
 
 Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vuestic-admin/wiki) 🤓
 
+### API calls
+
+Vue Dashboard enables you to easily send HTTP requests with its API service. See `src/components/ui/tree-view/TreeViewAdvanced.vue` for an usage example. This example uses the GitHub API, but you can configure the server URL and request headers in `src/services/api.js` :
+
+```js
+export const API = axios.create({
+  // Your server URL
+  baseURL: `https://api.github.com/`,
+  // Optional headers to add to each request
+  headers: {
+    Accept: 'application/vnd.github.inertia-preview+json'
+  }
+})
+```
+
+
 ## Features
 * Vue.js
 * Bootstrap 4
 * Webpack
 * Responsive layout
 * Charts (Chart.js)
-* Maps (Google, Leaflet, amMap)
 * Progress bars
 * Material forms with beautiful validation
 * 4 Form wizard types
@@ -70,7 +85,7 @@ Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vues
 ## Things to implement
 
 - [X] Move menu from the sidebar to the navbar
-- [ ] Add API service to easily send HTTP requests
+- [X] Add API service to easily send HTTP requests
 - [ ] Add vue-test-utils support
 - [ ] Add tests coverage
 - [ ] Add service for displaying notifications
