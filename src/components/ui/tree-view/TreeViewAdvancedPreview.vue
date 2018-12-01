@@ -17,32 +17,55 @@
       </div>
     </div>
 
-    <vuestic-tree-root ref="treeView">
-      <vuestic-tree-category label="Electronics">
-        <vuestic-tree-node>Cellphones</vuestic-tree-node>
-        <vuestic-tree-node>Camera Body Kits</vuestic-tree-node>
-        <vuestic-tree-node>External HDDs</vuestic-tree-node>
+    <vuestic-tree-root  ref="treeView">
+
+    <vuestic-tree-category label="Frameworks">
+      <vuestic-tree-node>Vue.js</vuestic-tree-node>
+      <vuestic-tree-node>Angular 2+</vuestic-tree-node>
+      <vuestic-tree-node>ReactJS</vuestic-tree-node>
+    </vuestic-tree-category>
+
+    <vuestic-tree-category isOpen label="My GitHub repos">
+
+      <vuestic-tree-category
+        v-for="repo in repos"
+        :key="repo.id"
+        :label="repo.name"
+      >
+        <vuestic-tree-node>
+          {{ repo.description }}
+        </vuestic-tree-node>
+
       </vuestic-tree-category>
-      <vuestic-tree-category isOpen label="Products">
-        <vuestic-tree-category label="Cables">
-          <vuestic-tree-node>Audio</vuestic-tree-node>
-          <vuestic-tree-node>Video</vuestic-tree-node>
-          <vuestic-tree-node>Optical</vuestic-tree-node>
-        </vuestic-tree-category>
-        <vuestic-tree-node>Monitors</vuestic-tree-node>
-        <vuestic-tree-node>Keyboards</vuestic-tree-node>
-      </vuestic-tree-category>
-      <vuestic-tree-category label="Apparel">
-        <vuestic-tree-node>Jackets</vuestic-tree-node>
-        <vuestic-tree-node>Pants</vuestic-tree-node>
-        <vuestic-tree-node>Skirts</vuestic-tree-node>
-      </vuestic-tree-category>
-    </vuestic-tree-root>
+
+    </vuestic-tree-category>
+
+  </vuestic-tree-root>
   </div>
 </template>
 
 <script>
+import to from 'await-to-js'
+import { fetchReposFromUser } from '../../../services/api/userService'
+
 export default {
   name: 'tree-view-advanced-preview',
+  data () {
+    return {
+      repos: [],
+    }
+  },
+  methods: {
+    async fetchRepos () {
+      let err, repos;
+      [ err, repos ] = await to(fetchReposFromUser('mathilde-lannes'))
+      // TODO display error notification if there's an error
+      if (err) return
+      this.repos = repos.data
+    }
+  },
+  mounted: function () {
+    this.fetchRepos()
+  }
 }
 </script>

@@ -12,7 +12,7 @@ Responsive admin dashboard template built with [Vue.js](https://vuejs.org) and [
 
 - [Node.js](https://nodejs.org/en/) (at least 4.x, 8.x recommended)
 - npm version 3+ and [Git](https://git-scm.com/).
-- [vuestic-installer](https://github.com/epicmaxco/vuestic-installer) `npm install vuestic-installer -g`.
+- [kopi](https://github.com/mathilde-lannes/kopi) `npm install kopi-installer -g`.
 
 ## Browser Support
 * Latest Chrome, Firefox, Safari, Edge, IE11+
@@ -27,12 +27,18 @@ $ npm install -g @vue/cli
 $ yarn global add @vue/cli
 ```
 
-You can create vuestic project via installer:
+You can create a vue-dashboard project via the `kopi` installer:
 
 ``` bash
-# create new project via vuestic-installer command.
-$ vuestic myproject
+# create new project via kopi command.
+$ kopi myproject
 $ cd myproject
+$ npm run serve
+```
+
+Or just clone the project and run :
+
+```bash
 $ npm i
 $ npm run serve
 ```
@@ -41,13 +47,28 @@ $ npm run serve
 
 Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vuestic-admin/wiki) 🤓
 
+### API calls
+
+Vue Dashboard enables you to easily send HTTP requests with its API service. See `src/components/ui/tree-view/TreeViewAdvanced.vue` for an usage example. This example uses the GitHub API, but you can configure the server URL and request headers in `src/services/api.js` :
+
+```js
+export const API = axios.create({
+  // Your server URL
+  baseURL: `https://api.github.com/`,
+  // Optional headers to add to each request
+  headers: {
+    Accept: 'application/vnd.github.inertia-preview+json'
+  }
+})
+```
+
+
 ## Features
 * Vue.js
 * Bootstrap 4
 * Webpack
 * Responsive layout
 * Charts (Chart.js)
-* Maps (Google, Leaflet, amMap)
 * Progress bars
 * Material forms with beautiful validation
 * 4 Form wizard types
@@ -64,7 +85,7 @@ Got stuck? Check out Vuestic's [documentation](https://github.com/epicmaxco/vues
 ## Things to implement
 
 - [X] Move menu from the sidebar to the navbar
-- [ ] Add API service to easily send HTTP requests
+- [X] Add API service to easily send HTTP requests
 - [ ] Add vue-test-utils support
 - [ ] Add tests coverage
 - [ ] Add service for displaying notifications
